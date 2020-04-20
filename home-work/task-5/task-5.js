@@ -1,37 +1,37 @@
 let input = prompt('Укажите страну доставки');
 let country;
-let price;
+let price = 0;
 
 input = input.toLowerCase();
 
 switch (input) {
-  case 'Китай':
-    country: 'Китай';
-    price: 100;
+  case 'китай':
+    country = 'Китай';
+    price = 100;
     console.log(`Доставка в ${country} будет стоить ${price} кредитов`);
     break;
 
-  case 'Чили':
-    country: 'Чили';
-    price: 250;
+  case 'чили':
+    country = 'Чили';
+    price = 250;
     console.log(`Доставка в ${country} будет стоить ${price} кредитов`);
     break;
 
-  case 'Австралия':
-    country: 'Австралия';
-    price: 170;
+  case 'австралия':
+    country = 'Австралия';
+    price = 170;
     console.log(`Доставка в ${country} будет стоить ${price} кредитов`);
     break;
 
-  case 'Индия':
-    country: 'Индия';
-    price: 80;
+  case 'индия':
+    country = 'Индия';
+    price = 80;
     console.log(`Доставка в ${country} будет стоить ${price} кредитов`);
     break;
 
-  case 'Ямайка':
-    country: 'Ямайка';
-    price: 120;
+  case 'ямайка':
+    country = 'Ямайка';
+    price = 120;
     console.log(`Доставка в ${country} будет стоить ${price} кредитов`);
     break;
 
